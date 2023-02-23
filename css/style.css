@@ -4,3 +4,61 @@
 .primary-color{
     color: #3F87F5;
 }
+
+
+.pricing {
+    padding: 100px 0;
+  }
+  
+  .pricing h2 {
+    margin-bottom: 100px;
+  }
+  
+  .pricing .card.premium {
+    background-color: #3F87F5;
+    color: #ffffff;
+    border-radius: 20px;
+  }
+  
+  .pricing .card.premium ul li {
+    background-color: #3F87F5;
+    color: #ffffff;
+  }
+  
+  .pricing .card-title {
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  
+  .pricing .card-title:nth-child(2) {
+    margin-bottom: 15px;
+  }
+  
+  .pricing ul li {
+    color: #848199;
+  }
+
+  .package-3{
+    box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
+  }
+
+
+
+  @media screen and (max-width: 576px) {
+    .carousel-inner img {
+      height: 500px;
+      object-fit: cover;
+    }
+  
+    .pricing {
+      padding: 50px 0;
+    }
+  
+    .pricing h2 {
+      margin-bottom: 50px;
+    }
+  
+    .pricing .card.premium {
+      margin-top: 0;
+    }
+  }
